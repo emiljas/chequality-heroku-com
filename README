@@ -1,0 +1,48 @@
+Prepare workpspace:
+Enter project directory.
+Run mvn eclipse:eclipse to generate eclipse project files and import project into eclipse workspace.
+If You have compilation error saying "The import junit cannot be resolved" set mouse cursor on source code line "import junit.framework.TestCase;" then click ctr+1, select "fix project settings" and "Add junit library to project buld path"
+Run tests from eclipse.
+
+Requirements specification
+
+Implement following Tetronimo figures (http://en.wikipedia.org/wiki/Tetromino).
+On this stage You don't have to implement rotations of tetronimo figures. 
+
+   I_SHAPE
+    ....\n
+    IIII\n
+    ....\n
+	
+    J_SHAPE
+    ..J\n
+    JJJ\n
+    ...\n
+	
+    L_SHAPE
+    L..\n
+    LLL\n
+    ...\n
+	
+   O_SHAPE
+   .OO\n
+   .OO\n
+   ...\n
+   
+   S_SHAPE
+    ...\n
+    .SS\n
+    SS.\n
+	
+   T_SHAPE
+   .T.\n
+   TTT\n
+   ...\n
+   
+   Z_SHAPE
+   ...\n
+   ZZ.\n
+   .ZZ\n
+
+
+
