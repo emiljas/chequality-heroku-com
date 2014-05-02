@@ -17,12 +17,12 @@ public class BlockLandsOnAnotherBlockTest extends TestCase {
 
 	public void testShouldStillFallingRightAboveTheOtherBlock() {
 		assertTrue(board.isFallingBlock());
-		assertEquals("" + "...\n" + ".Y.\n" + ".X.\n", board.toString());
+		assertEquals("...\n" + ".Y.\n" + ".X.\n", board.toString());
 	}
 
 	public void testShouldStopsFailingWhenItHitsTheOtherBlock() {
 		board.tick();
 		assertFalse(board.isFallingBlock());
-		assertEquals("" + "...\n" + ".Y.\n" + ".X.\n", board.toString());
+		assertEquals("...\n" + ".Y.\n" + ".X.\n", board.toString());
 	}
 }
